@@ -74,6 +74,7 @@ if (isset($_POST['login'])) {
         // User not found, login failed
         echo"<script>
         alert('Invalid email or password');
+        window.location.href='index.php?login'
     </script>";
     }
         }

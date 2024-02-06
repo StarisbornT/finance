@@ -1,25 +1,30 @@
-<!-- Sidebar  -->
-<?php include 'sidebar.php' ?>
-<!-- end sidebar -->
-<!-- right content -->
-<div id="content">
-    <!-- topbar -->
-    <?php include 'topbar.php' ?>
-    <!-- end topbar -->
-    <!-- dashboard inner -->
-    <div class="midde_cont">
-        <div class="container-fluid">
-            <div class="row column_title">
-                <div class="col-md-12">
-                    <div class="page_title">
-                        <h2>Dashboard</h2>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h1>Welcome <?php echo $name ?></h1>
-                <h4>Email <?php echo $email; ?></h4>
-            </div>
-        </div>
+<?php
+if(isset($_SESSION['user_id'])) {
+    $userId = $_SESSION['user_id'];
+    $sql = "SELECT * FROM users WHERE id = '$userId'";
+    $result = $conn->query($sql);
+    if ($result->num_rows > 0) {
+        // Fetch the user's details
+        $row = $result->fetch_assoc();
+        $userId = $row['id'];
+        $name = $row['names'];
+        $image = $row['images'];
+        $email = $row['email'];       
+    } else {
+        // Handle the case if the user's details are not found
+        echo "User details not found.";
+    } 
+}
+?>
+<div class="container-fluid mt-5 hero">
 
-        <?php include 'footer.php'; ?>
+    <p class="text-center text-md-start" style="margin-top:20%;"></p>
+    <h1 class="text-center text-md-start">Welcome <?php echo $name ?></h1>
+    <p class="text-center text-md-start">
+        Email: <?php echo $email; ?>
+    </p>
+
+
+
+</div>
+</div>

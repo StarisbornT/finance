@@ -1,63 +1,62 @@
-<div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-4">Our Office</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                <div class="d-flex pt-2">
-                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                            class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                            class="fab fa-linkedin-in"></i></a>
+<footer class="container-fluid footer-div py-4 bg-light">
+    <div class="row py-3" style="border-bottom: 1px solid #000;">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <h1 class="text-center text-md-start">FOBEWORK</h1>
+            <h3 class="text-center text-md-start mt-3">Subscribe to our Newsletter</h3>
+            <p class="text-center text-md-start">Follow our Newsletter to stay updated</p>
+            <form action="" class="row g-3">
+                <div class="col-8 col-md-7">
+                    <input type="text" class="form-control" placeholder="Enter Email">
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-4">Services</h4>
-                <a class="btn btn-link" href="">Financial Planning</a>
-                <a class="btn btn-link" href="">Cash Investment</a>
-                <a class="btn btn-link" href="">Financial Consultancy</a>
-                <a class="btn btn-link" href="">Business Loans</a>
-                <a class="btn btn-link" href="">Business Analysis</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-4">Quick Links</h4>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Our Services</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Support</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-4">Newsletter</h4>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                <div class="position-relative w-100">
-                    <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text"
-                        placeholder="Your email">
-                    <button type="button"
-                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                <div class="col-4 col-md-5">
+                    <input type="submit" name="submit" id="" class="btn btn-warning w-100">
                 </div>
-            </div>
+            </form>
+        </div>
+        <div class="col-md-6 col-lg-2 mb-4">
+            <h5 class="font-weight-bold">Quick Links</h5>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Home</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">About</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Services</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Contact</a>
+        </div>
+        <div class="col-md-6 col-lg-2 mb-4">
+            <h5 class="font-weight-bold">Company</h5>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Pricing</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Tracking</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Terms of Services</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Customization</a>
+        </div>
+        <div class="col-md-6 col-lg-2 mb-4">
+            <h5 class="font-weight-bold">Support</h5>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">What's Included</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Previous Work</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">How it works</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Web Design</a>
+        </div>
+        <div class="col-md-6 col-lg-2 mb-4">
+            <h5 class="font-weight-bold">Contacts</h5>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Location</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Macgregor Road Ikoyi</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">Call Us</a>
+            <a href="#" class="text-decoration-none d-block mb-2 text-dark">001-556-278</a>
         </div>
     </div>
-</div>
-
-<div class="container-fluid copyright py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
-                    href="https://themewagon.com">ThemeWagon</a>
-            </div>
+    <div class="row py-2">
+        <div class="col-12 col-md-9">
+            <p class="text-center text-md-start mb-0">2023 designed by FOBEWORK. All Rights Reserved</p>
+        </div>
+        <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+            <p class="mb-0 me-3">Follow Us On:</p>
+            <a href="#" class="text-dark">
+                <i class="fa fa-facebook bg-warning rounded-circle p-2 me-2" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="text-dark">
+                <i class="fa fa-instagram bg-warning rounded-circle p-2 me-2" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="text-dark">
+                <i class="fa fa-twitter bg-warning rounded-circle p-2 me-2" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
-</div>
+</footer>
